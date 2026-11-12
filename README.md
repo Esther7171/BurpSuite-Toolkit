@@ -1,4 +1,3 @@
-
 # BurpSuite Pro 2026 Loader (Windows, Linux, Mac)
 
 **The ultimate Burp Suite Professional Loader and Activator. Cross-platform support for Windows, Linux, and macOS with Java 21-25 compatibility.**
