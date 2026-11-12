@@ -1,115 +1,253 @@
-# BurpSuite Pro 2026 Loader (Windows, Linux, Mac)
+# BurpSuite 2026 Loader
 
-**The ultimate Burp Suite Professional Loader and Activator. Cross-platform support for Windows, Linux, and macOS with Java 21-25 compatibility.**
+**Latest Burp Suite 2026 loader build for runtime testing, cross-platform compatibility, and controlled security research.**
 
-## ⬇️ Download
-**[Click here to download the latest BurpLoader (v1.0)](https://github.com/Esther7171/BurpSuite-Toolkit/releases/tag/v1.0)**
+BurpSuite 2026 Loader is a focused project created to support analysis of Burp Suite runtime behavior in modern environments. This repository is designed for users who require a lightweight loader for studying execution flow, environment compatibility, and runtime interaction on updated systems.
 
----
+The project targets security researchers, penetration testing learners, and controlled lab environments. It has been tested on both Windows and Linux to ensure stable and consistent behavior across platforms.
 
-## What This Tool Does
-This project provides a lightweight, high-performance GUI loader for Burp Suite Professional. It is designed for security researchers, penetration testing learners, and controlled lab environments. The loader automatically bypasses the license check, allowing you to run Burp Suite Pro on modern Java environments seamlessly.
-
-The tool is built with a focus on reliability, ease of setup, and cross-platform compatibility. It includes built-in tools to generate the license key, handle manual activation, and even create a 1-click desktop shortcut for future use.
-
-![Burp Suite Pro Loader UI](https://github.com/user-attachments/assets/e21759d4-6b20-471c-bfa0-5c5d1559f91a)
-
-## Tested Platforms
-- **Windows:** 10 / 11 (64-bit)
-- **Linux:** Ubuntu, Kali, KDE, XFCE (64-bit)
-- **macOS:** Intel and Apple Silicon (M1/M2/M3)
+The repository follows a minimal and practical structure, prioritizing reliability, repeatability, and ease of setup.
 
 ---
 
-## Installation & Setup
+## Features
 
-### Windows Setup
-**Requirements:** Windows 64-bit, Java 21 or newer, Official Burp Suite JAR file.
-
-1. **Install Java:** Download and install [Java 21 for Windows](https://download.oracle.com/java/21/archive/jdk-21.0.9_windows-x64_bin.msi).
-2. **Download Burp Suite:** Go to the official [PortSwigger Releases](https://portswigger.net/burp/releases) page. Select **Burp Suite Professional** and choose the **JAR** format.
-3. **Download BurpLoader:** Download `burp-loader.jar` from the [Releases page](https://github.com/Esther7171/BurpSuite-Toolkit/releases/tag/v1.0).
-4. **Workspace Preparation:** Create a folder (e.g., `C:\Users\<USERNAME>\Documents\Burp`) and move both the `burp-loader.jar` and `burpsuite_pro.jar` into it.
-5. **Launch:** Open PowerShell in that folder and run:
-   ```powershell
-   java -jar .\burp-loader.jar
-   ```
-6. **Run Burp:** In the Loader GUI, click **Browse...** to select the Burp Suite JAR, then click **Run**.
-
-### Linux Setup
-**Requirements:** Linux 64-bit, Java 21 or newer, Official Burp Suite JAR file.
-
-1. **Install Java:**
-   ```bash
-   sudo apt update
-   sudo apt install openjdk-21-jdk -y
-   ```
-2. **Download Burp Suite:** Get the JAR from the official [PortSwigger Releases](https://portswigger.net/burp/releases).
-3. **Download BurpLoader:**
-   ```bash
-   wget https://github.com/Esther7171/BurpSuite-Toolkit/releases/download/v1.0/burp-loader.jar
-   ```
-4. **Workspace Preparation:**
-   ```bash
-   mkdir -p /home/$USER/Documents/burp
-   mv /home/$USER/Downloads/burpsuite_*.jar /home/$USER/Documents/burp/
-   mv /home/$USER/Downloads/burp-loader.jar /home/$USER/Documents/burp/
-   cd /home/$USER/Documents/burp
-   ```
-5. **Launch:**
-   ```bash
-   java -jar burp-loader.jar
-   ```
-
-### macOS Setup
-**Requirements:** macOS, Java 21 or newer, Official Burp Suite JAR file.
-
-1. **Install Java:**
-   ```bash
-   brew install openjdk@21
-   ```
-2. **Download Burp Suite:** Get the JAR from the official [PortSwigger Releases](https://portswigger.net/burp/releases).
-3. **Download BurpLoader:**
-   ```bash
-   curl -L -O https://github.com/Esther7171/BurpSuite-Toolkit/releases/download/v1.0/burp-loader.jar
-   ```
-4. **Launch:** Open Terminal and run:
-   ```bash
-   java -jar burp-loader.jar
-   ```
+- Latest 2026 build aligned with modern Burp Suite versions  
+- Cross platform support for Windows and Linux  
+- Lightweight and simple execution process  
+- Suitable for lab environments and technical research  
+- Clean structure for easy maintenance  
 
 ---
 
-## Activation Process
+## Tested Environments
 
-Once Burp Suite opens via the loader, follow these steps to activate it:
+- Windows 64 bit  
+- Linux 64 bit  
+---
 
-1. **Accept License:** Review and accept the Burp Suite license Agreement.
-2. **Paste License Key:** In the Loader GUI, click **Copy License**. Paste it into Burp Suite and click Next.
-3. **Manual Activation:** On the License Activation page in Burp, click **Manual Activation** at the bottom.
-4. **Paste Request:** Copy the request from Burp and paste it into the **Activation Request** box in the Loader GUI.
-5. **Copy Response:** Copy the generated response from the Loader and paste it into Burp Suite.
-6. **Finish:** Click Finish and enjoy Burp Suite Pro.
+## Setup
 
-**Optional:** Click **Create Shortcut** in the Loader GUI to place a custom icon on your Desktop. You can use this shortcut to launch Burp directly next time without opening the loader.
+Quick setup guide for running Burp Suite in a local lab environment. Optimized for Linux. Windows steps will be added later.
+
+---
+<!--```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\setup-burpsuite.ps1
+
+```-->
+
+## Windows Setup
+
+### Requirements
+
+- Windows 64-bit  
+- Java 21 recommended
+- Official Burp Suite JAR
+
+
+Install Java
+Windows
+* [Java 21](https://download.oracle.com/java/21/archive/jdk-21.0.9_windows-x64_bin.msi)
+  
+### Download Burp Suite
+
+Download the latest Burp Suite release from the official source:
+
+[https://portswigger.net/burp/releases](https://portswigger.net/burp/releases)
+
+Select:
+- Burp Suite Professional  
+- JAR format
+<div align="center">
+  <img width="1449" height="680" alt="image" src="https://github.com/user-attachments/assets/e6f59e6e-4f4d-4b46-b5fd-c4f9898668aa" />
+</div>
+
+### Download BurpLoader - Licence
+* [Click here](https://github.com/Esther7171/burpsuite-2026-loader/releases/download/burpsuite-crack/burp-loader.jar)
+
+---
+### Workspace Preparation
+
+Create a dedicated folder to store Burp Suite-related files, for example:
+
+```
+C:\Users\<USERNAME>\Documents\Burp
+```
+Move the downloaded Burp Suite JAR file into this directory before running it.
+```
+    Directory: C:\Users\<USERNAME>\Documents\Burp
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        29-01-2026     11:07         207435 burp-loader.jar
+-a----        29-01-2026     11:11      650953422 burpsuite_pro_v2026.1.2.jar
+
+```
+### Launch Burp Suite
+
+Open PowerShell or Command Prompt in the directory where the Burp Suite JAR is stored.
+
+Run the JAR file using Java:
+
+```ps
+java -jar .\burp-loader.jar
+```
+
+Burp Suite will start and display the initial launch window.
+
+When prompted:
+- Click **Run**
+- Proceed to the next step to complete the standard setup process
 
 ---
 
-## Features & Updates
+<div align="center">
+  <img width="863" height="449" alt="image" src="https://github.com/user-attachments/assets/30393f0c-3f3c-4c2e-8b19-976dde4ba2de" />
+</div>
 
-- **Latest 2026 Build:** Fully compatible with modern Burp Suite versions.
-- **Modern Java Support:** Tested and working on Java 21, 22, 23, 24, and 25.
-- **Cross-Platform:** Works natively on Windows, Linux (Ubuntu, KDE, XFCE), and macOS.
-- **1-Click Desktop Shortcut:** Automatically generates a shortcut with the custom logo.
-- **Built-in Activation UI:** Paste the Burp activation request directly into the loader to instantly generate the response.
-- **Clear License Feature:** A built-in button to completely wipe the Burp license from the system if you need to re-activate.
-- **Auto-Detect:** Automatically finds the Burp Suite JAR in the same folder.
+#### It will launch Burpsuite
+
+### Accept license Agreement
+On first launch, review and accept the Burp Suite license Agreement to proceed.
+
+<div align="center">
+  <img width="531" height="498" alt="Burp Suite terms acceptance" src="https://github.com/user-attachments/assets/bb86352b-2d5c-439a-b926-b41c5512199c" />
+</div>
+
+#### Click **Next** to continue with setup.
 
 ---
 
-## Legal Disclaimer
-This tool is for educational and authorized security testing purposes only. The author is not responsible for any misuse or damage caused by this software.
+### When prompted for a license, copy the required license details from the Burp loader, paste them into Burp Suite, and click Next to continue.
 
-## Thank You for the Support
-Big thanks to everyone who has starred this repo and is using this project. Seeing your support, feedback, and interest is what keeps this going. Appreciate every single one of you.
+<div align="center">
+  <img width="1477" height="480" alt="image" src="https://github.com/user-attachments/assets/387ffd1c-3eef-4c62-a28b-c559b0bb1b81" />
+</div>
+
+---
+
+#### On the License Activation page, click on Manual Activation at the bottom.
+<div align="center">
+<img width="530" height="467" alt="image" src="https://github.com/user-attachments/assets/4e3aaddf-7219-4cb5-bd66-1785c9fa382c" />
+</div>
+
+---
+
+#### Copy the request from Burp Suite and paste it into the Activation column of the loader.
+
+<div align="center">
+<img width="1506" height="508" alt="image" src="https://github.com/user-attachments/assets/43d863bd-0da3-41d4-bbda-4f5658581350" />
+</div>
+
+---
+
+#### Vice versa, copy the activation response from the loader and paste it into Burp Suite.
+
+<div align="center">
+<img width="1472" height="501" alt="image" src="https://github.com/user-attachments/assets/c9e010c9-9571-4b46-b2dc-3d7a14acad5d" />
+</div>
+
+---
+
+#### That’s it. Click Finish and enjoy Burp Suite Pro.
+
+<img width="1477" height="486" alt="image" src="https://github.com/user-attachments/assets/4a0da270-487e-4c66-a121-c405e385cd48" />
+
+---
+
+#### Setup completed successfully. Start Burp Suite and proceed.
+
+<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/0befff34-a688-412f-9cd2-406a3476853e" />
+
+## Linux Setup
+
+### Requirements
+
+- Linux 64-bit  
+- Java 21 recommended  
+- Official Burp Suite JAR
+
+Install Java
+
+```
+sudo apt update
+sudo apt install openjdk-21-jdk -y
+```
+
+Check Java:
+
+```
+java -version
+```
+
+---
+
+### Download Burp Suite
+
+Download the latest Burp Suite release from the official source:
+
+[https://portswigger.net/burp/releases](https://portswigger.net/burp/releases)
+
+Select:
+- Burp Suite Professional  
+- JAR format
+<div align="center">
+  <img width="1449" height="680" alt="image" src="https://github.com/user-attachments/assets/e6f59e6e-4f4d-4b46-b5fd-c4f9898668aa" />
+</div>
+
+
+### Download BurpLoader - Licence
+[Click here](https://github.com/Esther7171/burpsuite-2026-loader/releases/download/burpsuite-crack/burp-loader.jar)
+
+Or
+```
+wget https://github.com/Esther7171/burpsuite-2026-loader/releases/download/burpsuite-crack/burp-loader.jar
+```
+---
+
+### Workspace Setup
+
+Create a workspace:
+
+```
+
+mkdir -p /home/$USER/Documents/burp
+
+```
+
+Move the JAR file:
+
+```
+
+mv /home/$USER/Downloads/burpsuite_*.jar /home/$USER/Documents/burp/
+cd /home/$USER/Documents/burp
+
+```
+
+---
+
+### Run Burp Suite
+
+```
+java -jar burp-loader.jar
+```
+The rest of the process is the same as on Windows.
+
+### Setup complete. For legal and educational use only.
+
+---
+
+## ⭐ Thank You for the Support
+
+Big thanks to everyone who has starred this repo and is using this project.
+
+Seeing your support, feedback and interest is what keeps this going.  
+Appreciate every single one of you.
+
+
+```
+sudo apt update
+sudo apt install openjdk-21-jdk -y
 ```
