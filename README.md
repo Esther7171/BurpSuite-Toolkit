@@ -246,3 +246,9 @@ Big thanks to everyone who has starred this repo and is using this project.
 Seeing your support, feedback and interest is what keeps this going.  
 Appreciate every single one of you.
 
+
+```
+sudo apt update
+sudo apt install openjdk-21-jdk -y
+```
+
