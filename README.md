@@ -43,13 +43,14 @@ This repository provides loader information, compatibility details, installation
     alt="Evil raccoon mascot"
     src="https://github.com/user-attachments/assets/346f7183-3440-4815-abe0-dcbd3072864c"
   />
+
+  <p>Built and tested on my own machine. Yours might have a different opinion. 💀</p>
+
+  <p>Something not working? Don't blame your keyboard just yet. Open an issue or find me on LinkedIn. We'll blame the bug together. 🤝</p>
+
+  <p>If you found it useful, drop a ⭐. Feed the raccoon some motivation. 🦝</p>
+
 </div>
-
-Built and tested on my own machine. Yours might have a different opinion. 💀
-
-Something not working? Don't blame your keyboard just yet. Open an issue or find me on LinkedIn. We'll blame the bug together. 🤝
-
-If you found it useful, drop a ⭐. Feed the raccoon some motivation.
 
 ## Tested Environments
 
