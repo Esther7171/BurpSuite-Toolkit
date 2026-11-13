@@ -207,6 +207,6 @@ For even quicker access, right-click the Burp Suite icon in the application laun
 
 <div align="center"> <img alt="Pin Burp Suite to Ubuntu dock" src="https://github.com/user-attachments/assets/01ef18c2-509b-44e0-93ca-e12af2a6ee08"> </div>
 
-#### That's it! You're all set. You can now launch Burp Suite directly from your Ubuntu dock without manually opening the terminal or BurpLoader every time.
+##### That's it! You're all set. You can now launch Burp Suite directly from your Ubuntu dock without manually opening the terminal or BurpLoader every time.
 
-Happy Hacking! 🚀
+##### Happy Hacking! 🚀
