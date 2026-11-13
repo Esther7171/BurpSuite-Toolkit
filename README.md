@@ -18,7 +18,7 @@
 | Version | Description | Release |
 |---|---|---|
 | **v1.0.0 (Latest)** | Automated edition with improved detection, GUI controls and shortcuts. | [Download v1.0.0](https://github.com/Esther7171/BurpSuite-Toolkit/releases/tag/v1.0) |
-| **v0.9 (Legacy)** | Original manual edition for older Burp Suite JAR formats. | [View v0.9 Release](https://github.com/Esther7171/BurpSuite-Toolkit/releases/tag/v0.9) |
+| **v0.9 (Legacy)** | Original manual edition with the earlier interface and workflow. | [View v0.9 Release](https://github.com/Esther7171/BurpSuite-Toolkit/releases/tag/v0.9) |
 
 ## About the Project
 
@@ -28,14 +28,88 @@ This repository provides loader information, compatibility details, installation
 
 ## Features
 
-- **Latest Burp Suite Support:** Built for modern and legacy versions.
-- **Tiny & Lightweight:** Under 2 MB. No bulky installer.
-- **Pure Java:** One JAR. Simple to run.
-- **Cross-Platform:** Windows and Linux. macOS testing pending.
-- **GUI-First:** No complicated commands. Just point, click, and go.
-- **Fast Startup:** Lightweight and ready to launch.
-- **One-Click Launchers:** Desktop shortcuts for Windows, Linux and macOS.
+- **Burp Suite Compatibility:** Designed for modern and legacy versions.
+- **Lightweight:** Under 2 MB. No bulky installer.
+- **Pure Java:** Single-JAR application.
+- **Cross-Platform:** Windows, Linux and macOS. Testing is ongoing.
+- **GUI-First:** Simple point-and-click interface.
+- **Automatic JAR Detection:** Detects Burp Suite JAR files when available.
+- **Manual JAR Selection:** Browse and select JAR files from other directories.
+- **Desktop Shortcuts:** Create launchers for supported operating systems.
 - **Built for Research:** Educational labs and authorized security testing.
+
+## Tested Environments
+
+| Operating System | Architecture | Status |
+|---|---|---|
+| Windows 10 | 64-bit | ✅ Tested |
+| Windows 11 | 64-bit | ✅ Tested |
+| Ubuntu | 64-bit | ✅ Tested |
+| Kali Linux | 64-bit | ✅ Tested |
+| Linux Mint | 64-bit | ✅ Tested |
+| macOS | Apple Silicon (ARM64) | 🟡 Pending Testing |
+
+**Java versions tested:** Java 21 and Java 25.
+
+**Compatibility range:** Java 11–26 (not every version individually tested).
+
+macOS testing is pending. Unfortunately, the Mac has left this world before testing could begin. 💀
+
+## What's New in v1.0.0
+### New Features
+- **Java 11–26 Support:** Expanded Java runtime compatibility.
+- **JAR Detection & Browse:** Automatically detects Burp Suite JAR files when available, or lets you manually browse and select one, whether it's in the same directory or somewhere else.
+- **Download Options:** Quick access to official PortSwigger downloads and project-hosted releases, including Community and Professional JAR options.
+- **Shortcut Creator:** Create desktop shortcuts and application launchers.
+
+### UI & Experience
+- Refreshed interface with a cleaner, responsive layout.
+- Embedded application icons.
+- **Copy & Paste Buttons:** Because doing things manually is overrated. A little less work, a little more laziness.
+
+## Installation Guides
+
+- **Ubuntu:** [View Installation Guide](https://github.com/Esther7171/BurpSuite-Toolkit/tree/main/doc/Setup-guide/Ubuntu)
+- **Windows:** Installation guide coming soon. Expected by Sunday.
+
+## FAQ
+
+### 1. Which Java versions does BurpLoader support?
+
+Tested with Java 11–25. For Burp Suite, Java 17 and Java 21 are currently recommended, with Java 21 preferred for stability. Future compatibility is not guaranteed.
+
+### 2. Which Burp Suite format is supported?
+
+Only the **Burp Suite `.jar` format** is supported across Windows, Linux and macOS. Installer packages such as `.exe`, `.deb`, and other OS-specific builds are not supported.
+
+### 3. Why did you add download buttons?
+
+After receiving requests through LinkedIn and GitHub issues, I added direct links to project releases and official PortSwigger downloads.
+
+### 4. What's the difference between Community and Professional?
+
+They are separate editions with different features and licensing. Check [PortSwigger's website](https://portswigger.net/burp) for details.
+
+### 5. Does Burp AI work?
+
+I haven't implemented or tested Burp AI integration. It may require signing in through the PortSwigger web portal. If you figure it out, feel free to teach me too! 😄
+
+### 6. Can the legacy v0.9 run the latest Burp Suite?
+
+Yes. The legacy v0.9 has been tested with Java 17 and Java 21. You can use Java 21 to run v0.9 alongside newer Burp Suite releases.
+
+However, v0.9 is not compatible with Java 26 in my testing. For the best compatibility, use Java 21.
+
+## Disclaimer
+
+This project is provided for educational purposes and authorized security research.
+
+- Use Burp Suite only on systems and applications you own or have explicit permission to test.
+- Follow PortSwigger's official licensing terms and software usage policies.
+- This project is not affiliated with, endorsed by, or sponsored by PortSwigger.
+- The author is not responsible for misuse, unauthorized testing, or damages resulting from the use of this project.
+
+**Use responsibly. Always obtain permission before testing.**
 
 <div align="center">
   <img
@@ -52,92 +126,3 @@ This repository provides loader information, compatibility details, installation
 
 </div>
 
-## Tested Environments
-
-| Operating System | Architecture | Status |
-|---|---|---|
-| Windows 10 | 64-bit | ✅ Tested |
-| Windows 11 | 64-bit | ✅ Tested |
-| Ubuntu | 64-bit | ✅ Tested |
-| Kali Linux | 64-bit | ✅ Tested |
-| Linux Mint | 64-bit | ✅ Tested |
-| macOS | Apple Silicon (ARM64) | 🟡 Pending Testing |
-**Java versions tested:** Java 21 and Java 25.
-
-macOS testing is pending. Unfortunately, the Mac has left this world before testing could begin.
-
-## What's New in v1.0.0
-### New Features
-- **Java 11–26 Support:** Expanded Java runtime compatibility.
-- **JAR Detection & Browse:** Automatically detects Burp Suite JAR files when available, or lets you manually browse and select one, whether it's in the same directory or somewhere else.
-- **Download Options:** Direct access to Burp Suite releases from PortSwigger and this project's releases from GitHub, with separate Professional and Community JAR options for easier selection.
-- **Shortcut Creator:** Create desktop shortcuts and application launchers.
-
-### UI & Experience
-- Refreshed interface with a cleaner, responsive layout.
-- Embedded application icons.
-- **Copy & Paste Buttons:** Because doing things manually is overrated. A little less work, a little more laziness.
-
-
-
-
-### Setup complete. For legal and educational use only.
-
----
-
-## ⭐ Thank You for the Support
-
-Big thanks to everyone who has starred this repo and is using this project.
-
-Seeing your support, feedback and interest is what keeps this going.  
-Appreciate every single one of you.
-
-<!--
-
- # BurpSuite-Toolkit
-
-## About the Project
-
-## Features
-
-## Supported Platforms
-
-## Tested Environments
-
-## Installation Guide
-
-### 1. Windows Installation
-[Coming Soon]
-
-### 2. Linux Installation
-
-#### Ubuntu Setup
-
-#### Kali Linux Setup
-[Coming Soon]
-
-### 3. macOS Installation
-[Coming Soon]
-
-## Usage Guide
-
-## Screenshots
-
-## Troubleshooting
-
-## Disclaimer
-
-## License
-
-
-## Faq
-
-Burploader support java11-java 25 run and tested 
-but current burpsuit support and run most stable on java 21 and java 17 , in future if burpsuit make say there burpsuit support and fulltest on java 25 still the burploader will be able to work im not sure about java 27 as they change maybe it will work or if it not work ill reopen the project and maintian it 
-
-
-Most people downloading the wrong version of burpsuit in there system for all os .Jar version will sipport if u download burpsuit setup accoidng to ur system like .exe , .deb or x64 , arm the burploader will not be able to work for all os burpsuit.jar formate is applicate and this single burploader.jar will work on all os as so far i have tested.
-
-I saw many people dm me on linked and created issue in github , so i add button in loder which u can use to dowload burploader form my releas or offical release till last year Portwigger launch 
-communtiy and professional version diffectly but right now they launch single version which contian both community and professional , i guess they gonna release pro and comminute version together from now onward , anyway both version work exactly same and u cant use burp ai bez u have to login into web portal of portwsigger to use that so im not skill full enoght to do that right now, if u guys able to do it please dont forget to teach me 
--->
