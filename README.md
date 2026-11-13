@@ -1,10 +1,15 @@
+<div align="center">
+
 # BurpSuite 2026 Loader
+
+**A lightweight, cross-platform Java utility for security research and authorized testing.**
 
 ![Latest](https://img.shields.io/badge/LATEST-v1.0-16a34a?style=plastic)
 ![Legacy](https://img.shields.io/badge/LEGACY-v0.9-ea580c?style=plastic)
 ![Platforms](https://img.shields.io/badge/PLATFORMS-Windows%20%7C%20Linux%20%7C%20macOS-2563eb?style=plastic)
 ![Documentation](https://img.shields.io/badge/DOCUMENTATION-Available-9333ea?style=plastic)
 
+</div>
 ## Available Versions
 
 | Version | Description | Release |
