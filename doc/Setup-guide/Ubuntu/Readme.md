@@ -1,12 +1,10 @@
 # Burp Suite Professional Setup on Ubuntu
 
 ![Tested](https://img.shields.io/badge/Tested-Ubuntu%2026.04.1%20LTS-2D2D2D?style=flat&logo=ubuntu&logoColor=E95420)
+![Java](https://img.shields.io/badge/Java-21-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Package](https://img.shields.io/badge/Package-JAR-2D2D2D?style=flat&logo=java&logoColor=white)
 
 A beginner-friendly, step-by-step guide to installing and configuring Burp Suite on Ubuntu.
-
-**Tested Environment:** Ubuntu 26.04.1 LTS  
-**Java Version:** OpenJDK 21  
-**Package Format:** JAR
 
 ## Table of Contents
 
