@@ -1,8 +1,22 @@
 # Burp Suite Professional Setup on Ubuntu
 
-A step-by-step guide to setting up Burp Suite Professional on Ubuntu.
-
 ![Tested](https://img.shields.io/badge/Tested-Ubuntu%2026.04.1%20LTS-2D2D2D?style=flat&logo=ubuntu&logoColor=E95420)
+
+A beginner-friendly, step-by-step guide to installing and configuring Burp Suite on Ubuntu.
+
+**Tested Environment:** Ubuntu 26.04.1 LTS  
+**Java Version:** OpenJDK 21  
+**Package Format:** JAR
+
+## Table of Contents
+
+- [Step 1: Install Java](#step-1-install-java)
+- [Step 2: Verify Java Installation](#step-2-verify-java-installation)
+- [Step 3: Download BurpLoader](#step-3-download-burploader)
+- [Step 4: Get Burp Suite Ready](#step-4-get-burp-suite-ready)
+- [Step 5: Configure Burp Suite](#step-5-configure-burp-suite)
+- [Step 6: Create a Desktop Shortcut](#step-6-create-a-desktop-shortcut)
+- [Troubleshooting](#troubleshooting)
 
 ### Step 1: Install Java
 
@@ -195,6 +209,6 @@ For even quicker access, right-click the Burp Suite icon in the application laun
 
 <div align="center"> <img alt="Pin Burp Suite to Ubuntu dock" src="https://github.com/user-attachments/assets/01ef18c2-509b-44e0-93ca-e12af2a6ee08"> </div>
 
-we use this for all setup That's it! You're all set. You can now launch Burp Suite directly from your Ubuntu dock without manually opening the terminal or BurpLoader every time.
+That's it! You're all set. You can now launch Burp Suite directly from your Ubuntu dock without manually opening the terminal or BurpLoader every time.
 
 Happy Hacking! 🚀
