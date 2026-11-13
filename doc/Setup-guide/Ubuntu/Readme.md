@@ -1,4 +1,4 @@
-# Burp Suite Professional Setup on Ubuntu
+# How to Set Up Burp Suite Professional on Ubuntu
 
 ![Tested](https://img.shields.io/badge/Tested-Ubuntu%2026.04.1%20LTS-2D2D2D?style=flat&logo=ubuntu&logoColor=E95420)
 ![Java](https://img.shields.io/badge/Java-21-ED8B00?style=flat&logo=openjdk&logoColor=white)
