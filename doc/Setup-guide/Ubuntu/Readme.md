@@ -2,7 +2,7 @@
 
 A step-by-step guide to setting up Burp Suite Professional on Ubuntu.
 
-**Tested Environment:** Ubuntu 26.04.1 LTS
+![Tested](https://img.shields.io/badge/Tested-Ubuntu%2026.04.1%20LTS-2D2D2D?style=flat&logo=ubuntu&logoColor=E95420)
 
 ### Step 1: Install Java
 
