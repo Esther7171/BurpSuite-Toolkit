@@ -124,7 +124,7 @@ to create a shortcut , click on create shorcut button
 
 > If u create shortcut without activating burpsuit it will open unconfig burp, if u configed it click yes
 
-<img width="602" height="186" alt="image" src="https://github.com/user-attachments/assets/2eae3ef6-94ea-43a3-b740-2528289d944a" />
+<img width="580" height="184" alt="image" src="https://github.com/user-attachments/assets/a160b5b4-7db3-4ddc-9123-dc55bcacd73a" />
 
 Your burpsuite pro will be added to ur application launcher
 
@@ -133,6 +133,7 @@ Your burpsuite pro will be added to ur application launcher
 by right clicking it u can pin it to dock and close rest of ur burploader and terminal with single click ur burpsuit pro will be ready
 
 <img width="1918" height="1049" alt="image" src="https://github.com/user-attachments/assets/01ef18c2-509b-44e0-93ca-e12af2a6ee08" />
+
 
 
 
