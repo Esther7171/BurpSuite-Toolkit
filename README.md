@@ -2,6 +2,8 @@
 
 # BurpSuite 2026 Loader
 
+<img width="180" alt="BurpSuite Toolkit Logo" src="https://github.com/user-attachments/assets/5f1e1607-96f1-4703-9589-21d07c4fecf1" />
+
 **A lightweight, cross-platform Java utility for security research and authorized testing.**
 
 ![Latest](https://img.shields.io/badge/LATEST-v1.0-16a34a?style=plastic)
@@ -10,6 +12,7 @@
 ![Documentation](https://img.shields.io/badge/DOCUMENTATION-Available-9333ea?style=plastic)
 
 </div>
+
 ## Available Versions
 
 | Version | Description | Release |
