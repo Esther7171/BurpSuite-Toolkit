@@ -246,8 +246,7 @@ Big thanks to everyone who has starred this repo and is using this project.
 Seeing your support, feedback and interest is what keeps this going.  
 Appreciate every single one of you.
 
-
-> Reopen and undermaintance sry 
+<!--
 
  # BurpSuite-Toolkit
 
@@ -295,3 +294,4 @@ Most people downloading the wrong version of burpsuit in there system for all os
 
 I saw many people dm me on linked and created issue in github , so i add button in loder which u can use to dowload burploader form my releas or offical release till last year Portwigger launch 
 communtiy and professional version diffectly but right now they launch single version which contian both community and professional , i guess they gonna release pro and comminute version together from now onward , anyway both version work exactly same and u cant use burp ai bez u have to login into web portal of portwsigger to use that so im not skill full enoght to do that right now, if u guys able to do it please dont forget to teach me 
+-->
