@@ -1,4 +1,3 @@
-
 <div align="center">
     
 # BurpSuite 2026 Loader
