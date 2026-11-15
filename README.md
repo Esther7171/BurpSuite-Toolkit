@@ -260,3 +260,57 @@ When you press **Run**, be patient. The first launch of Burp Suite can take abou
 When Burp Suite launches, it will ask you to continue with Professional or Community. Let's continue with Professional.
 
 <img width="626" height="860" alt="choose professional or community" src="https://github.com/user-attachments/assets/862ad6ac-616f-41de-bf27-8322964a887e" />
+
+## FAQ
+
+### 1. Which Java versions does BurpLoader support?
+
+Tested with Java 11–25. For Burp Suite, Java 17 and Java 21 are currently recommended, with Java 21 preferred for stability. Future compatibility is not guaranteed.
+
+### 2. Which Burp Suite format is supported?
+
+Only the **Burp Suite `.jar` format** is supported across Windows, Linux and macOS. Installer packages such as `.exe`, `.deb`, and other OS-specific builds are not supported.
+
+### 3. Why did you add download buttons?
+
+After receiving requests through LinkedIn and GitHub issues, I added direct links to project releases and official PortSwigger downloads.
+
+### 4. What's the difference between Community and Professional?
+
+They are separate editions with different features and licensing. Check [PortSwigger's website](https://portswigger.net/burp) for details.
+
+### 5. Does Burp AI work?
+
+I haven't implemented or tested Burp AI integration. It may require signing in through the PortSwigger web portal. If you figure it out, feel free to teach me too! 😄
+
+### 6. Can the legacy v0.9 run the latest Burp Suite?
+
+Yes. The legacy v0.9 has been tested with Java 17 and Java 21. You can use Java 21 to run v0.9 alongside newer Burp Suite releases.
+
+However, v0.9 is not compatible with Java 26 in my testing. For the best compatibility, use Java 21.
+
+## Disclaimer
+
+This project is provided for educational purposes and authorized security research.
+
+- Use Burp Suite only on systems and applications you own or have explicit permission to test.
+- Follow PortSwigger's official licensing terms and software usage policies.
+- This project is not affiliated with, endorsed by, or sponsored by PortSwigger.
+- The author is not responsible for misuse, unauthorized testing, or damages resulting from the use of this project.
+
+**Use responsibly. Always obtain permission before testing.**
+
+<div align="center">
+  <img
+    width="200"
+    alt="Evil raccoon mascot"
+    src="https://github.com/user-attachments/assets/346f7183-3440-4815-abe0-dcbd3072864c"
+  />
+
+  <p>Built and tested on my own machine. Yours might have a different opinion. 💀</p>
+
+  <p>Something not working? Don't blame your keyboard just yet. Open an issue or find me on LinkedIn. We'll blame the bug together. 🤝</p>
+
+  <p>If you found it useful, drop a ⭐. Feed the raccoon some motivation. 🦝</p>
+
+</div>
