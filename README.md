@@ -259,7 +259,7 @@ After clicking **Next**, Burp Suite opens a new window. Select **Manual activati
 Burp Suite will display an activation request. Copy the request and paste it into the **Activation Request** tab in BurpLoader.
 
 <div align="center">
-  <img width="100%" alt="Burp Suite activation request interface" src="https://github.com/user-attachments/assets/b0d10364-8b71-479b-87bd-fafe7d5f78d8" />
+  <img width="100%" alt="Burp Suite activation request interface" src="https://github.com/user-attachments/assets/63977e3e-0025-40a8-82ca-bbfef3de1df2" />
 </div>
 
 ---
