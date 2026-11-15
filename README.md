@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1702" height="644" alt="image" src="https://github.com/user-attachments/assets/2db98987-9791-4b6d-bdac-99ce7513050f" /><div align="center">
 
 # BurpSuite 2026 Loader
 
@@ -195,18 +195,18 @@ Direct download link for the latest JAR:
 
 ## 3. Download BurpLoader
 
-BurpLoader is the small Java utility that launches Burp Suite for you. You can download it from the project release page or directly from the terminal. Both options give you the same `burp-loader.jar` file.
+BurpLoader is the small launcher that starts Burp Suite. Download it the same way you downloaded the JAR file, from either the release page or the direct link. Both options give you the same file.
 
 <details>
 <summary><strong>Quick download using the command line</strong></summary>
 
-Make sure your terminal is still inside the `burpsuite` folder where you saved the Burp Suite JAR. Then run:
+If your terminal is still open inside the `burpsuite` folder, run:
 
 ```powershell
 curl "https://github.com/Esther7171/BurpSuite-Toolkit/releases/download/v1.0/burp-loader.jar" -o burp-loader.jar
 ```
 
-This command saves `burp-loader.jar` to your current folder. The file is small, so the download should finish quickly.
+This command saves `burp-loader.jar` to your current folder. Be patient, it is a small file but the download depends on your connection.
 
 ### Verify the download from the terminal
 
@@ -224,43 +224,91 @@ sha256:1fa388f0c102c7c11ed8bf239f10ae2cefd05dcf6c855820b475d2fb297e767e
 
 </details>
 
-**Option 1: Download from the Release Page**
+**Option 1: Download from the release page**
 
-[BurpLoader v1.0 Release](https://github.com/Esther7171/BurpSuite-Toolkit/releases/tag/v1.0)
+[Download BurpLoader from the v1.0 Release](https://github.com/Esther7171/BurpSuite-Toolkit/releases/tag/v1.0)
 
 1. Open the release page.
-2. Find the `burp-loader.jar` file under Assets.
+2. Find `burp-loader.jar` in the assets list.
 3. Download it and save it to your `burpsuite` folder.
 
-**Option 2: Direct Download**
+**Option 2: Direct download**
 
-[Download burp-loader.jar directly](https://github.com/Esther7171/BurpSuite-Toolkit/releases/download/v1.0/burp-loader.jar)
+[burp-loader.jar](https://github.com/Esther7171/BurpSuite-Toolkit/releases/download/v1.0/burp-loader.jar)
 
 1. Open the direct link.
-2. The download starts automatically.
-3. Save the file to your `burpsuite` folder.
+2. Download the `.jar` file.
+3. Save it to your `burpsuite` folder.
 
-At this point you should have two files in your `burpsuite` folder: the Burp Suite JAR and `burp-loader.jar`. Everything is in place, so let's start setting it up.
+## 4. Confirm Your Files Are in Place
 
-## 4. Run BurpLoader
-
-Open PowerShell or Command Prompt inside your `burpsuite` folder and run:
-
-```powershell
-java -jar burp-loader.jar
-```
-
-This starts the BurpLoader interface. From here you can detect or browse for the Burp Suite JAR file and launch Burp Suite.
-
-If you want to confirm both files are in the right place before running, list the folder contents:
+Before we start setting things up, check that both files are in the same folder. Inside your `burpsuite` folder, run:
 
 ```powershell
 ls
 ```
 
-You should see both `burpsuite_desktop_v2026.10.1.jar` and `burp-loader.jar` in the output.
+You should see both files listed:
 
+```powershell
+    Directory: C:\Users\octob\<USERNAME>\burpsuite
 
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15-11-2026  07:07 PM        1238721 burp-loader.jar
+-a----        15-11-2026  06:52 PM      751385742 burpsuite_desktop_v2026.10.1.jar
+
+PS C:\Users\octob\<USERNAME>\burpsuite>
+```
+
+If both files are downloaded, you are all set. Now we can start setting it up.
+
+## 4. Launch BurpLoader
+
+Now let's start BurpLoader and launch Burp Suite.
+
+<details>
+<summary><strong>If BurpLoader finds Burp Suite automatically</strong></summary>
+
+Run BurpLoader and wait a moment. If both Burp Suite and BurpLoader are in the same folder, BurpLoader will locate Burp Suite on its own and show a `ready to start` message. You can then hit **Run** directly.
+
+<img width="1287" height="583" alt="ready to start" src="https://github.com/user-attachments/assets/e0d611cf-fa0f-44b2-b216-82cb224858be" />
+
+</details>
+
+<details>
+<summary><strong>If BurpLoader does not find Burp Suite automatically</strong></summary>
+
+In this case, if you installed BurpLoader and Burp Suite in different folders, or BurpLoader was not able to detect it even in the same location, use the **Browse** button to locate the Burp Suite JAR file manually.
+
+<img width="1283" height="582" alt="browse for burpsuite jar" src="https://github.com/user-attachments/assets/2be23875-c670-4188-96bf-2297320f99df" />
+
+Once you select the Burp Suite JAR with Browse, BurpLoader will show that Burp Suite was selected successfully. Hit **Run** and let's go.
+
+<img width="1287" height="584" alt="burpsuite selected successfully" src="https://github.com/user-attachments/assets/5b00a8d6-7ba0-4d23-9d38-4152815950f7" />
+
+</details>
+
+When you press **Run**, be patient. The first launch of Burp Suite can take about 30 seconds to open, so do not spam the Run button.
+
+<details>
+<summary><strong>Choosing Professional or Community on launch</strong></summary>
+
+When Burp Suite launches, it will ask you to continue with Professional or Community. The latest version of Burp Suite from PortSwigger ships both Community and Professional in one package. On older versions, both were shipped separately. So no matter whether you run an old version or a new one, it works the same way. Right now, continue with Professional.
+
+<img width="626" height="860" alt="choose professional or community" src="https://github.com/user-attachments/assets/862ad6ac-616f-41de-bf27-8322964a887e" />
+
+</details>
+
+Once all the preparation is done and Burp Suite launches, you are ready to go.
+# sETING UP LICENSE
+
+Copy the generated licese from burploader to burpsuite and hit next
+
+Deepseek which image to keep here where no license is pated and where licesce is pasted
+<img width="1708" height="680" alt="no license pasted" src="https://github.com/user-attachments/assets/ddbe7fb5-9397-4486-9bab-c4ce0bd1a110" />
+
+<img width="1702" height="644" alt="license pasted" src="https://github.com/user-attachments/assets/57cabb4c-e347-4620-aac0-2d99d424f8b9" />
 
 
 
