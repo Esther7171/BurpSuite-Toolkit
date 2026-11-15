@@ -1,5 +1,3 @@
-<img width="1702" height="644" alt="image" src="https://github.com/user-attachments/assets/2db98987-9791-4b6d-bdac-99ce7513050f" /><div align="center">
-
 # BurpSuite 2026 Loader
 
 <img width="180" alt="BurpSuite Toolkit Logo" src="https://github.com/user-attachments/assets/5f1e1607-96f1-4703-9589-21d07c4fecf1" />
@@ -301,14 +299,56 @@ When Burp Suite launches, it will ask you to continue with Professional or Commu
 </details>
 
 Once all the preparation is done and Burp Suite launches, you are ready to go.
-# sETING UP LICENSE
 
-Copy the generated licese from burploader to burpsuite and hit next
+## 5. Setting Up the License
 
-Deepseek which image to keep here where no license is pated and where licesce is pasted
+Now we need to activate Burp Suite. BurpLoader will generate the license for you.
+
+### Step 1: Copy the generated license
+
+Copy the generated license from BurpLoader and paste it into the Burp Suite license window, then hit **Next**.
+
 <img width="1708" height="680" alt="no license pasted" src="https://github.com/user-attachments/assets/ddbe7fb5-9397-4486-9bab-c4ce0bd1a110" />
 
-<img width="1702" height="644" alt="license pasted" src="https://github.com/user-attachments/assets/57cabb4c-e347-4620-aac0-2d99d424f8b9" />
+### Step 2: Choose manual activation
+
+After hitting **Next**, Burp Suite opens a new window. Click on **Manual activation** and hit **Next**.
+
+<img width="610" height="632" alt="manual activation" src="https://github.com/user-attachments/assets/50d7efa1-3dde-4370-973e-a73ee9bef9f1" />
+
+### Step 3: Copy the request into BurpLoader
+
+Burp Suite will show an activation request. Copy that request from Burp Suite and paste it into the **Activation Request** tab in BurpLoader.
+
+<img width="1669" height="629" alt="activation request tab" src="https://github.com/user-attachments/assets/b0d10364-8b71-479b-87bd-fafe7d5f78d8" />
+
+### Step 4: Paste the response back into Burp Suite
+
+BurpLoader will generate an activation response. Copy the activation response from BurpLoader, paste it into Burp Suite in the **Paste response** field, and hit **Next**.
+
+<img width="1677" height="644" alt="activation response" src="https://github.com/user-attachments/assets/bbae035f-affe-4756-9c31-3ff3c37a3910" />
+
+Your license will now be activated.
+
+<img width="602" height="618" alt="license activated" src="https://github.com/user-attachments/assets/e84844c3-0e5f-4234-a321-bc00b0ca4e49" />
+
+## 6. Reopening Burp Suite
+
+If you want to open Burp Suite again later, repeat the launch step. You have two easy options:
+
+**Option 1:** Double click on `burp-loader.jar` to open BurpLoader, then press **Run**.
+
+**Option 2:** Use the terminal and run:
+
+```powershell
+java -jar burp-loader.jar
+```
+
+When the prompt appears, hit **Run** to reopen Burp Suite. After Burp Suite starts, you can close BurpLoader.
+
+<img width="952" height="690" alt="reopen burpsuite" src="https://github.com/user-attachments/assets/145f59b7-f125-4c5d-81ce-55ce3969231c" />
+
+And that is it. Burp Suite is installed, activated, and ready for your authorized security testing and educational labs.
 
 
 
