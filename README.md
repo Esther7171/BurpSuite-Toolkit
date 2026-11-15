@@ -80,17 +80,15 @@ This guide walks you through installing Burp Suite on Windows 10 or Windows 11 u
 - BurpLoader
 - Burp Suite JAR file from the official PortSwigger website or from the project releases
 
+
 ## 1. Install Java
 
 Download Java 21 or Java 25 for Windows. Pick whichever version you prefer. Java 25 is already installed on my machine, so that is what this guide uses.
 
-[Download Java 21 (Windows x64)](https://download.oracle.com/java/21/archive/jdk-21.0.9_windows-x64_bin.msi)
+- [Download Java 21 (Windows x64)](https://download.oracle.com/java/21/archive/jdk-21.0.9_windows-x64_bin.msi)
+- [Download Java 25 (Windows x64)](https://www.oracle.com/java/technologies/javase/jdk25-archive-downloads.html)
 
-[Download Java 25 (Windows x64)](https://www.oracle.com/java/technologies/javase/jdk25-archive-downloads.html)
-
-1. Open the downloaded `.msi` installer.
-2. Follow the installation wizard.
-3. Complete the installation.
+Open the downloaded `.msi` installer, follow the wizard, and complete the installation.
 
 ### Verify Java Installation
 
@@ -98,15 +96,6 @@ Open PowerShell or Command Prompt and run:
 
 ```powershell
 java -version
-```
-
-On my machine the output looks like this:
-
-```powershell
-PS C:\Users\<USERNAME>\Documents\burpsuite> java -version
-java version "25.0.5.0.2" 2026-10-21 LTS
-Java(TM) SE Runtime Environment (build 25.0.5.0.2+1-LTS-2)
-Java HotSpot(TM) 64-Bit Server VM (build 25.0.5.0.2+1-LTS-2, mixed mode, sharing)
 ```
 
 If Java is installed correctly, the command will display the installed Java version.
