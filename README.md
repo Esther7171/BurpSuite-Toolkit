@@ -1,3 +1,4 @@
+<div align="center">
 # BurpSuite 2026 Loader
 
 <img width="180" alt="BurpSuite Toolkit Logo" src="https://github.com/user-attachments/assets/5f1e1607-96f1-4703-9589-21d07c4fecf1" />
