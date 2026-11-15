@@ -1,3 +1,4 @@
+
 <div align="center">
     
 # BurpSuite 2026 Loader
@@ -323,6 +324,21 @@ When the prompt appears, hit **Run** to reopen Burp Suite. After Burp Suite star
 
 And that is it. Burp Suite is installed, activated, and ready for your authorized security testing and educational labs.
 
+### 7. Create a Shortcut (Windows)
+
+Opening Burp Suite from BurpLoader every time can be annoying. To fix this, you can create a desktop shortcut directly from BurpLoader.
+
+Open BurpLoader, click on the **Create Shortcut** button, and click **Yes**. It will create a shortcut for you on your desktop.
+
+<img width="1265" height="668" alt="create shortcut button" src="https://github.com/user-attachments/assets/c8435eae-a681-46a7-80e1-7e4a70803246" />
+
+Now you can simply double click this shortcut every time to open Burp Suite.
+
+<img width="233" height="217" alt="burp suite desktop shortcut" src="https://github.com/user-attachments/assets/eeadee22-6657-405c-b887-ae5368f4645c" />
+
+> **Note:** If you did not configure Burp Suite first and create a shortcut, it will open an unconfigured Burp Suite. Also, clearing the license will remove the desktop shortcut.
+
+Enjoy, and happy testing!
 
 ## FAQ
 
