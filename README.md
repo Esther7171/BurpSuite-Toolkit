@@ -83,8 +83,7 @@ macOS testing is still pending. Unfortunately, the Mac left this world before te
 | Operating System | Installation Guide |
 |---|---|
 | **Windows 10 / 11** | [View Guide](#windows-installation) |
-| **Ubuntu / Kali Linux** | [View Linux Guide](doc/Setup-guide/Linux) |
-
+| **Ubuntu / Kali Linux** | [View Linux Guide](https://github.com/Esther7171/BurpSuite-Toolkit/tree/main/doc/Setup-guide/Ubuntu#how-to-set-up-burp-suite-professional-on-ubuntu) |
 ---
 
 ### Windows
